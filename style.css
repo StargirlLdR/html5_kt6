@@ -1,0 +1,92 @@
+body {
+    background-color: #411c1c; 
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+  
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin: 20px auto;
+    width: 90%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #542995; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+margin-top: 0;
+color: #ffffff;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    background-color: #5f2e33;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #2f1013;
+}
+.content {
+    background-color: #ffffff;
+    padding: 20px;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#animationCanvas {
+    background-color: #eee;
+    margin-bottom: 10px;
+}
+
+.worker-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.worker-input input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.worker-input button {
+    background-color: #5f2e33;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.worker-input button:hover {
+    background-color: #2f1013;
+}
+
+.output {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: bold;
+}
